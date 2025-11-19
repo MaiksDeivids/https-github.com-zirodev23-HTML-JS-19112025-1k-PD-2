@@ -8,11 +8,8 @@ const outputBMI = document.getElementById("bmi-output")
     buttonCalc.addEventListener('click', calcBMI)
 
     function calcBMI(){
-        let sum = 0;
         output =  inputField1.value / inputField2.value
 
-        outputVal.innerHTML = output
+        outputVal.innerHTML = ("jūsu bmi ir: ") + output
 
     }
-
-
